@@ -22,12 +22,13 @@ Desarrollo
 3.  Si un número X es primo.
 Inicio 
 	leer numero1 
-	mientras (numero1 => 0) 
-	si entonces 
-	es numero1<0
-	Escribe “el numero no es natural”
-	si es divisible por 1 or   numero1 
-	Escribe “es primo”
-	sino 
-	Escribe “no es primo”
+
+	Si (numero1<0) entonces  
+		Escribe “el numero no es natural”
+	sino
+		Mientras (numero1 => 0) 
+			Si (numero1%1==0) or (numero1%numero1==0)
+				Escribe numero1 + " es primo."
+			Sino 
+				Escribe numero1 + “ no es primo.”
 fin 
