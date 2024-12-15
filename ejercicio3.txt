@@ -1,0 +1,34 @@
+      Pseudocódigo 
+escribe los algoritmos para solucionar:
+    1.     - Si un número X es par o impar
+    2.     - La tabla del número X desde el 1 hasta el 10
+    3.     - Si un número X es primo.
+Sintaxis
+Inicio 
+    • Fin 
+    • Escribe "un texto a escribir" 
+    • Lee X 
+    • Si (condición) entonces 
+    • Si (condición) entonces ... Sino .... 
+    • Según (valor) entonces ... opcion1: ... opcion2: ... 
+    • Mientras (condición) hacer .... 
+    • Para X en (1...N) hacer .... 
+    • Operadores matemáticos básicos: +, -, *, /, // y % (módulo). 
+    • Operadores relacionales: == (igual), >, <, >=, <= y != (distinto). 
+    • Operadores lógicos: and, or y not (negación). 
+    • La asignación de valores a una variable la realizaremos con el símbolo = 
+Desarrollo  
+	
+3.  Si un número X es primo.
+Inicio 
+	leer numero1 
+
+	Si (numero1<0) entonces  
+		Escribe “el numero no es natural”
+	sino
+		Mientras (numero1 => 0) 
+			Si (numero1%1==0) or (numero1%numero1==0)
+				Escribe numero1 + " es primo."
+			Sino 
+				Escribe numero1 + “ no es primo.”
+fin 
